@@ -1,0 +1,11 @@
+line-length = 120
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "I", "C"]
+ignore = ["E501"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "lf"
