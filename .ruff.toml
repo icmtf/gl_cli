@@ -1,9 +1,12 @@
 line-length = 120
-target-version = "py39"
+target-version = "py310"
 
 [lint]
 select = ["E", "F", "I", "C"]
 ignore = ["E501"]
+
+[lint.pylint]
+max-args = 10
 
 [format]
 quote-style = "double"

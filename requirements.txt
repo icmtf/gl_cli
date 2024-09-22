@@ -1,0 +1,4 @@
+click
+pre-commit
+rich
+python-gitlab

@@ -1,0 +1,8 @@
+[tool.bandit]
+exclude_dirs = [".venv"]
+skips = [
+    "B404",  # https://bandit.readthedocs.io/en/1.7.4/blacklists/blacklist_imports.html?highlight=b404#b404-import-subprocess
+    "B603",  # https://bandit.readthedocs.io/en/1.7.4/plugins/b603_subprocess_without_shell_equals_true.html
+    "B607",  # https://bandit.readthedocs.io/en/1.7.4/plugins/b607_start_process_with_partial_path.html
+]
+severity = "medium"
